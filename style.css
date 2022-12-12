@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* General */
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: "Rubik", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 20px 100px;
+	background: linear-gradient(
+		-30deg,
+		hsl(130, 30%, 60%),
+		hsl(150, 30%, 70%),
+		hsl(170, 30%, 80%),
+		hsl(190, 30%, 90%)
+	);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 50px;
+	text-align: left;
+}
+
+/* Cards */
+
+.card {
+	border: 3px solid hsl(190, 40%, 30%);
+	border-radius: 15px;
+	box-shadow: -7px 7px 2px hsl(190, 20%, 20%);
+}
+
+.cardTitle {
+	font-size: 40px;
+	text-align: center;
+}
+
+/* Colors */
+
+.color {
+	display: inline-block;
+	border: 3px solid hsl(190, 40%, 30%);
+	border-radius: 15px;
+	text-align: center;
+	width: 30%;
+	height: 20%;
+	margin: 17px;
+	box-shadow: -4px 4px 1px hsl(190, 20%, 20%);
+}
+
+.colorName {
+	font-size: 20px;
+}
+
+#castleAqua {
+	background-color: hsl(190, 40%, 90%);
+}
+
+#castleSand {
+	background-color: hsl(60, 50%, 90%);
+}
+
+#castleRoyal {
+	background-color: hsl(270, 50%, 70%);
+}
+
+#castleHerb {
+	background-color: hsl(100, 50%, 70%);
+}
+
+#castleKrimson {
+	background-color: hsl(0, 50%, 70%);
+}
