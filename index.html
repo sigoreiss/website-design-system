@@ -5,41 +5,115 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Castle Designs</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
 	</head>
 	<body>
 		<h1>Castle Designs</h1>
 		<div class="card" id="colorsCard">
 			<h2 class="cardTitle">Colors</h2>
-			<div class="color" id="castleAqua">
-				<h3 class="colorName">Castle Aqua</h3>
-				<p>RGB: 219, 236, 240</p>
-				<p>HSL: 190, 40% 90%</p>
-				<p>#DBECF0</p>
+			<div id="colorCont">
+				<div class="color" id="castleAqua">
+					<h3 class="itemName">Castle Aqua</h3>
+					<p>RGB: 219, 236, 240</p>
+					<p>HSL: 190, 40% 90%</p>
+					<p>#DBECF0</p>
+				</div>
+				<div class="color" id="castleSand">
+					<h3 class="itemName">Castle Sand</h3>
+					<p>RGB: 242, 242, 217</p>
+					<p>HSL: 60, 50% 90%</p>
+					<p>#F2F2D9</p>
+				</div>
+				<div class="color" id="castleRoyal">
+					<h3 class="itemName">Castle Royal</h3>
+					<p>RGB: 179, 140, 217</p>
+					<p>HSL: 270, 50%, 70%</p>
+					<p>#B38CD9</p>
+				</div>
+				<div class="color" id="castleHerb">
+					<h3 class="itemName">Castle Herb</h3>
+					<p>RGB: 166, 217, 140</p>
+					<p>HSL: 100, 50%, 70%</p>
+					<p>#A6D98C</p>
+				</div>
+				<div class="color" id="castleKrimson">
+					<h3 class="itemName">Castle Krimson</h3>
+					<p>RGB: 217, 140, 140</p>
+					<p>HSL: 0, 50%, 70%</p>
+					<p>#D98C8C</p>
+				</div>
 			</div>
-			<div class="color" id="castleSand">
-				<h3 class="colorName">Castle Sand</h3>
-				<p>RGB: 242, 242, 217</p>
-				<p>HSL: 60, 50% 90%</p>
-				<p>#F2F2D9</p>
+		</div>
+		<div class="card" id="fontsCard">
+			<h2 class="cardTitle">Fonts</h2>
+			<div class="font" id="serif">
+				<h4 class="fontName">Playfair Display</h4>
+				<p id="playfairDisplay">The quick brown fox jumps over the lazy dog.</p>
+				<p class="bold" id="playfairDisplay">
+					The quick brown fox jumps over the lazy dog.
+				</p>
+				<p class="italic" id="playfairDisplay">
+					The quick brown fox jumps over the lazy dog.
+				</p>
+				<p class="bold italic" id="playfairDisplay">
+					The quick brown fox jumps over the lazy dog.
+				</p>
 			</div>
-			<div class="color" id="castleRoyal">
-				<h3 class="colorName">Castle Royal</h3>
-				<p>RGB: 179, 140, 217</p>
-				<p>HSL: 270, 50%, 70%</p>
-				<p>#B38CD9</p>
+			<div class="font" id="sans-serif">
+				<h4 class="fontName">Rubik</h4>
+				<p id="rubik">The quick brown fox jumps over the lazy dog.</p>
+				<p class="bold" id="rubik">
+					The quick brown fox jumps over the lazy dog.
+				</p>
+				<p class="italic" id="rubik">
+					The quick brown fox jumps over the lazy dog.
+				</p>
+				<p class="bold italic" id="rubik">
+					The quick brown fox jumps over the lazy dog.
+				</p>
 			</div>
-			<div class="color" id="castleHerb">
-				<h3 class="colorName">Castle Herb</h3>
-				<p>RGB: 166, 217, 140</p>
-				<p>HSL: 100, 50%, 70%</p>
-				<p>#A6D98C</p>
+			<div class="font" id="monospace">
+				<h4 class="fontName">Roboto Mono</h4>
+				<p id="robotoMono">The quick brown fox jumps over the lazy dog.</p>
+				<p class="bold" id="robotoMono">
+					The quick brown fox jumps over the lazy dog.
+				</p>
+				<p class="italic" id="robotoMono">
+					The quick brown fox jumps over the lazy dog.
+				</p>
+				<p class="bold italic" id="robotoMono">
+					The quick brown fox jumps over the lazy dog.
+				</p>
 			</div>
-			<div class="color" id="castleKrimson">
-				<h3 class="colorName">Castle Krimson</h3>
-				<p>RGB: 217, 140, 140</p>
-				<p>HSL: 0, 50%, 70%</p>
-				<p>#D98C8C</p>
+		</div>
+		<div class="card" id="stylesCard">
+			<h2 class="cardTitle">Styles</h2>
+			<div class="style" id="h1">
+				<h1 style="text-align: center">h1: Main page heading</h1>
+				<ul>
+					<li>font-size: 50px;</li>
+					<li>font-family: "Rubik", sans-serif;</li>
+				</ul>
+			</div>
+			<div class="style" id="h2">
+				<h2 class="cardTitle">h2: Secondary heading</h2>
+				<ul>
+					<li>font-size: 40px;</li>
+					<li>text-align: center;</li>
+				</ul>
+			</div>
+			<div class="style" id="h3">
+				<h3 class="itemName">h3: Subheading</h3>
+				<ul>
+					<li>font-size: 20px;</li>
+					<li>text-align: center;</li>
+				</ul>
+			</div>
+			<div class="style" id="p">
+				<p>p: Paragraph text</p>
+				<ul>
+					<li>font-size: 20px;</li>
+				</ul>
 			</div>
 		</div>
 	</body>

@@ -6,7 +6,6 @@ html {
 	margin: 0;
 	padding: 0;
 	font-family: "Rubik", sans-serif;
-	box-sizing: border-box;
 }
 
 body {
@@ -28,12 +27,21 @@ h1 {
 	text-align: left;
 }
 
+p {
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
 /* Cards */
 
 .card {
 	border: 3px solid hsl(190, 40%, 30%);
 	border-radius: 15px;
 	box-shadow: -7px 7px 2px hsl(190, 20%, 20%);
+	margin-bottom: 40px;
 }
 
 .cardTitle {
@@ -41,9 +49,23 @@ h1 {
 	text-align: center;
 }
 
+.itemName {
+	font-size: 20px;
+}
+
 /* Colors */
 
-.color {
+#colorsCard {
+	background-color: hsl(190, 100%, 98%);
+}
+
+#colorsCont {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.color {
 	display: inline-block;
 	border: 3px solid hsl(190, 40%, 30%);
 	border-radius: 15px;
@@ -52,10 +74,6 @@ h1 {
 	height: 20%;
 	margin: 17px;
 	box-shadow: -4px 4px 1px hsl(190, 20%, 20%);
-}
-
-.colorName {
-	font-size: 20px;
 }
 
 #castleAqua {
@@ -76,4 +94,99 @@ h1 {
 
 #castleKrimson {
 	background-color: hsl(0, 50%, 70%);
+}
+
+/* Fonts */
+
+#fontsCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: hsl(60, 100%, 98%);
+}
+
+.font {
+	display: block;
+	border: 3px solid hsl(190, 40%, 30%);
+	border-radius: 15px;
+	text-align: center;
+	width: 97%;
+	margin: 17px;
+	box-shadow: -4px 4px 1px hsl(190, 20%, 20%);
+}
+
+.fontName {
+	font-size: 25px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#serif {
+	background-color: hsl(60, 50%, 70%);
+}
+
+#playfairDisplay {
+	font-family: "Playfiar Display", serif;
+	font-size: 30px;
+}
+
+#sans-serif {
+	background-color: hsl(60, 50%, 80%);
+}
+
+#rubik {
+	font-family: "Rubik", sans-serif;
+	font-size: 30px;
+}
+
+#monospace {
+	background-color: hsl(60, 50%, 90%);
+}
+
+#robotoMono {
+	font-family: "Roboto Mono", monospace;
+	font-size: 30px;
+}
+
+/* Styles */
+
+#stylesCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: hsl(270, 100%, 98%);
+}
+
+.style {
+	display: block;
+	border: 3px solid hsl(190, 40%, 30%);
+	border-radius: 15px;
+	text-align: center;
+	width: 97%;
+	margin: 17px;
+	box-shadow: -4px 4px 1px hsl(190, 20%, 20%);
+}
+
+#h1 {
+	background-color: hsl(270, 50%, 60%);
+}
+
+#h2 {
+	background-color: hsl(270, 50%, 70%);
+}
+
+#h3 {
+	background-color: hsl(270, 50%, 80%);
+}
+
+#p {
+	background-color: hsl(270, 50%, 90%);
 }
